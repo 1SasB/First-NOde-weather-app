@@ -7,6 +7,7 @@ const geocode = require('./utils/geocode.js')
 
 const app = express();
 
+
 //define path for express config
 const publicDirectory = path.join(__dirname,'../public')
 const ViewsPath = path.join(__dirname,'../templates/views')
